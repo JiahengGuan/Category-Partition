@@ -1,0 +1,48 @@
+# Source 
+  Existence of the input source by its name:
+        Not exist.              [error]
+		Exist.                  [property sourceexists]		
+		
+  Type:
+        File.                   
+		Directory.
+		Invalid type.           [single]
+		
+# Directory
+  Existence of the output directory:
+        Not exist.              [error]
+		Exist.                  
+		
+# Destination file
+  Existence of the destination file:
+        Exist.                  [property destinationfileexist]
+		No exist.                  
+		
+  Availability of the destination file:
+        File is openable.       	
+        File is not openable.   [single]	[property destinationfileisnotopenable]
+
+
+# OPT
+  number of command line arguments and options:
+        Zero.                   [single][property emptyOPT]
+		More than zero.          
+  
+  -b:
+        Backup success.         [if !emptyOPT && destinationfileexist]
+		Backup fail.            [if !emptyOPT && !destinationfileexist]
+        Not entered.            [if !emptyOPT]
+
+  -f:
+        Force success.          [if !emptyOPT && destinationfileexist && destinationfileisnotopenable]
+		Force fail.             [if !emptyOPT && (!destinationfileexist || !destinationfileisnotopenable)]
+        Not entered.            [if !emptyOPT]
+        
+  -r:
+        Recursion success.      [if !emptyOPT] 
+        Not entered.            [if !emptyOPT]
+        
+  -v:
+        Verbose success.        [if !emptyOPT]
+        Not entered.            [if !emptyOPT]
+		

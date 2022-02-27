@@ -1,0 +1,852 @@
+
+Test Case 1  		<error>
+   Existence of the input source by its name :  Not exist
+
+
+Test Case 2  		<single>
+   Type :  Invalid type
+
+
+Test Case 3  		<error>
+   Existence of the output directory :  Not exist
+
+
+Test Case 4  		<single>
+   Availability of the destination file :  File is not openable
+
+
+Test Case 5  		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 6  		(Key = 2.1.2.1.1.2.1.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 7  		(Key = 2.1.2.1.1.2.1.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 8  		(Key = 2.1.2.1.1.2.1.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 9  		(Key = 2.1.2.1.1.2.1.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 10 		(Key = 2.1.2.1.1.2.1.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 11 		(Key = 2.1.2.1.1.2.1.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 12 		(Key = 2.1.2.1.1.2.1.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 13 		(Key = 2.1.2.1.1.2.1.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 14 		(Key = 2.1.2.1.1.2.3.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 15 		(Key = 2.1.2.1.1.2.3.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 16 		(Key = 2.1.2.1.1.2.3.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 17 		(Key = 2.1.2.1.1.2.3.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 18 		(Key = 2.1.2.1.1.2.3.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 19 		(Key = 2.1.2.1.1.2.3.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 20 		(Key = 2.1.2.1.1.2.3.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 21 		(Key = 2.1.2.1.1.2.3.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 22 		(Key = 2.1.2.2.1.2.2.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 23 		(Key = 2.1.2.2.1.2.2.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 24 		(Key = 2.1.2.2.1.2.2.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 25 		(Key = 2.1.2.2.1.2.2.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 26 		(Key = 2.1.2.2.1.2.2.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 27 		(Key = 2.1.2.2.1.2.2.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 28 		(Key = 2.1.2.2.1.2.2.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 29 		(Key = 2.1.2.2.1.2.2.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 30 		(Key = 2.1.2.2.1.2.3.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 31 		(Key = 2.1.2.2.1.2.3.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 32 		(Key = 2.1.2.2.1.2.3.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 33 		(Key = 2.1.2.2.1.2.3.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 34 		(Key = 2.1.2.2.1.2.3.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 35 		(Key = 2.1.2.2.1.2.3.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 36 		(Key = 2.1.2.2.1.2.3.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 37 		(Key = 2.1.2.2.1.2.3.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  File
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 38 		(Key = 2.2.2.1.1.2.1.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 39 		(Key = 2.2.2.1.1.2.1.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 40 		(Key = 2.2.2.1.1.2.1.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 41 		(Key = 2.2.2.1.1.2.1.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 42 		(Key = 2.2.2.1.1.2.1.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 43 		(Key = 2.2.2.1.1.2.1.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 44 		(Key = 2.2.2.1.1.2.1.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 45 		(Key = 2.2.2.1.1.2.1.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup success
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 46 		(Key = 2.2.2.1.1.2.3.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 47 		(Key = 2.2.2.1.1.2.3.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 48 		(Key = 2.2.2.1.1.2.3.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 49 		(Key = 2.2.2.1.1.2.3.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 50 		(Key = 2.2.2.1.1.2.3.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 51 		(Key = 2.2.2.1.1.2.3.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 52 		(Key = 2.2.2.1.1.2.3.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 53 		(Key = 2.2.2.1.1.2.3.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  Exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 54 		(Key = 2.2.2.2.1.2.2.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 55 		(Key = 2.2.2.2.1.2.2.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 56 		(Key = 2.2.2.2.1.2.2.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 57 		(Key = 2.2.2.2.1.2.2.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 58 		(Key = 2.2.2.2.1.2.2.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 59 		(Key = 2.2.2.2.1.2.2.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 60 		(Key = 2.2.2.2.1.2.2.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 61 		(Key = 2.2.2.2.1.2.2.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Backup fail
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 62 		(Key = 2.2.2.2.1.2.3.2.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 63 		(Key = 2.2.2.2.1.2.3.2.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 64 		(Key = 2.2.2.2.1.2.3.2.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 65 		(Key = 2.2.2.2.1.2.3.2.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Force fail
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
+
+Test Case 66 		(Key = 2.2.2.2.1.2.3.3.1.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Verbose success
+
+
+Test Case 67 		(Key = 2.2.2.2.1.2.3.3.1.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Recursion success
+   -v                                           :  Not entered
+
+
+Test Case 68 		(Key = 2.2.2.2.1.2.3.3.2.1.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Verbose success
+
+
+Test Case 69 		(Key = 2.2.2.2.1.2.3.3.2.2.)
+   Existence of the input source by its name    :  Exist
+   Type                                         :  Directory
+   Existence of the output directory            :  Exist
+   Existence of the destination file            :  No exist
+   Availability of the destination file         :  File is openable
+   number of command line arguments and options :  More than zero
+   -b                                           :  Not entered
+   -f                                           :  Not entered
+   -r                                           :  Not entered
+   -v                                           :  Not entered
+
